@@ -1,0 +1,43 @@
+.footer {
+  background: #3574C4;
+
+  &__container {
+    width: 1280px;
+    margin: 0 auto;
+  }
+
+  &__content {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: space-around;
+
+    ul {
+      li {
+        display: block;
+      }
+
+      a {
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 64px;
+        color: #FFFFFF;
+        &:hover {
+          border-bottom: 1px solid #fff;
+        }
+      }
+    }
+  }
+
+  &__inner {
+    p {
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      font-size: 12px;
+      line-height: 32px;
+      letter-spacing: 0.1em;
+      color: #FFFFFF;
+    }
+  }
+}

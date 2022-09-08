@@ -1,0 +1,108 @@
+.main {
+  background: rgba(255, 255, 255, 0.95);
+
+  &__btns {
+    margin-top: 80px;
+    display: flex;
+    gap: 24px;
+
+    &__btn1 {
+      font-family: 'Roboto', sans-serif;
+      color: #3574C4;
+      font-size: 14px;
+      line-height: 16px;
+      background: #e2e2e2;
+      border-radius: 20px;
+      padding: 12px 49px;
+      border: 0;
+      transition: background-color .4s ease-in-out;
+
+      &:hover {
+        cursor: pointer;
+        background-color: #ffffff;
+      }
+    }
+
+    &__btn2 {
+      font-family: 'Roboto', sans-serif;
+      color: #FFFFFF;
+      font-size: 14px;
+      line-height: 16px;
+      border: 2px solid #FFFFFF;
+      border-radius: 20px;
+      background-color: #3574C4;
+      padding: 12px 43.5px;
+      transition: background-color .4s ease-in-out;
+
+      &:hover {
+        cursor: pointer;
+        background-color: #1c59a8;
+      }
+    }
+  }
+
+  &__container {
+    width: 1280px;
+    margin: 0 auto;
+  }
+
+  &__section1 {
+    margin-bottom: 32px;
+    h2 {
+      margin: 64px 0;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 72px;
+      text-align: center;
+      color: #000000;
+    }
+
+    p {
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      max-width: 948px;
+      margin: 0 auto;
+      font-size: 18px;
+      line-height: 32px;
+      letter-spacing: 0.1em;
+      color: #000000;
+    }
+  }
+
+  &__section2 {
+    text-align: center;
+    padding-bottom: 64px;
+  }
+
+  &__section3 {
+    padding-bottom: 144px;
+    padding-top: 144px;
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    gap: 57px;
+
+    h2 {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 64px;
+      color: #000;
+    }
+
+    p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      line-height: 32px;
+      color: #000;
+    }
+
+    &__image {
+      img {
+        width: 663px;
+        height: 737.23px;
+      }
+    }
+  }
+}
